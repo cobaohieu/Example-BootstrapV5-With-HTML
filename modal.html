@@ -378,6 +378,12 @@
                                 <label for="message-text" class="col-form-label">Additional information</label>
                                 <textarea class="form-control" id="message-text"></textarea>
                             </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    I agree to the <a href="#" class=" link-primary" data-bs-toggle="modal" data-bs-target="#termAndConditions">Terms & Conditions</a>
+                                </label>
+                            </div>
                             <div class="mb-3" style="text-align: center;">
                                 <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .45rem; --bs-btn-padding-x: 21.4rem;">Register</button>
@@ -388,8 +394,113 @@
                                 <button type="button" class="btn btn-primary"><i class="fab fa-facebook"></i> Sign up
                                     with Facebook</button>
                             </div>
+                            <div class="mb-3" style="text-align: center;">
+                                <p>
+                                    <hr>
+                                    <span>Already have an account?</span>
+                                    <a href="#"" class=" link-primary" data-bs-toggle="modal" data-bs-target="#signIn">
+                                        Sign in here
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </form>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#termAndConditions">
+        Terms & Conditions
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="termAndConditions" tabindex="-1" aria-labelledby="termAndConditions" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="termAndConditions">Website Terms and Conditions</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signUp" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>These <strong>Terms and Conditions</strong> ("Terms") govern your use of <a href="#">[Your
+                            Website Name]</a> ("the Website"), which is owned and operated by <a href="#">[Your Company
+                            Name]</a> ("the Company"). By using this Website, you agree to abide by these Terms. If you
+                        do not agree to these Terms, please do not use the Website.</p>
+
+                    <h2>1. Acceptance of Terms</h2>
+                    <ul>
+                        <li>By accessing and using the Website, you acknowledge that you have read, understood, and
+                            agree to be bound by these Terms.</li>
+                    </ul>
+
+                    <h2>2. Use of the Website</h2>
+                    <ul>
+                        <li>You must be at least 18 years old to use the Website. If you are under 18, please do not use
+                            the Website.</li>
+                        <li>You agree to use the Website for lawful purposes and in a way that does not infringe upon
+                            the rights of others or inhibit their use and enjoyment of the Website.</li>
+                        <li>The Company may terminate or suspend your access to the Website at its discretion, without
+                            notice, for any violation of these Terms.</li>
+                    </ul>
+
+                    <h2>3. Privacy</h2>
+                    <ul>
+                        <li>Your use of the Website is also governed by our <a href="#">Privacy Policy</a>. Please
+                            review the Privacy Policy to understand how we collect, use, and protect your personal
+                            information.</li>
+                    </ul>
+
+                    <h2>4. Intellectual Property</h2>
+                    <ul>
+                        <li>All content on the Website, including text, images, graphics, logos, and software, is the
+                            property of the Company and is protected by copyright and other intellectual property laws.
+                            You may not reproduce, distribute, or create derivative works from this content without our
+                            prior written permission.</li>
+                    </ul>
+
+                    <h2>5. Disclaimer</h2>
+                    <ul>
+                        <li>The Company makes no warranties or representations about the accuracy, completeness, or
+                            reliability of the Website's content or its suitability for any particular purpose. You use
+                            the Website at your own risk.</li>
+                    </ul>
+
+                    <h2>6. Limitation of Liability</h2>
+                    <ul>
+                        <li>The Company will not be liable for any direct, indirect, incidental, special, consequential,
+                            or punitive damages arising from your use of the Website, including but not limited to loss
+                            of data, business interruption, or loss of profits.</li>
+                    </ul>
+
+                    <h2>7. Changes to Terms and Website</h2>
+                    <ul>
+                        <li>The Company reserves the right to change, modify, or update these Terms at any time without
+                            prior notice. We may also make changes to the Website, including adding or removing
+                            features, at our discretion.</li>
+                    </ul>
+
+                    <h2>8. Governing Law</h2>
+                    <ul>
+                        <li>These Terms are governed by and construed in accordance with the laws of [Your
+                            Jurisdiction]. Any legal action or proceeding relating to the Website or these Terms shall
+                            be brought exclusively in the federal or state courts located in [Your Jurisdiction].</li>
+                    </ul>
+
+                    <h2>9. Contact Information</h2>
+                    <ul>
+                        <li>If you have any questions or concerns about these Terms, please contact us at <a
+                                href="#">[Your Contact Information]</a>.</li>
+                    </ul>
+
+                    <p>By using the Website, you acknowledge that you have read, understood, and agree to these Terms.
+                    </p>
+
+                    <p>Last Updated: 2023</p>
                 </div>
                 <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
